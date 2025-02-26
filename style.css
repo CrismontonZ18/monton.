@@ -1,0 +1,76 @@
+.navbar {
+    background-color: rgb(33, 160, 233)
+
+}
+.navbar .nav-link {
+color:rgb(17, 17, 16)
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.btn-MONTON{
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-MONTON:hover {
+    color:blueviolet;
+    border: 2px solid white;
+}
+
+.zeb{
+    width: 5%;
+}
+.banner {
+background: url('mount.jpg');
+height: 1000px;
+background-size: cover;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner p {
+    color:rgb(7, 7, 7);
+    font-size: 20px;
+}
+ #about h2, #about h3 {
+color:brown
+
+ }
+
+ #about img {
+    border: 5px solid rgb(14, 1, 1);
+    box-shadow: 0 0 80px 0 black;
+    border-radius: 15px;
+ }
+ .card-img-top{
+
+    width: 25%;
+ }
+.card{
+    border: 5px solid rgb(14, 1, 1);
+    box-shadow: 0 0 80px 0 black;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 25px 20px;
+}
+.card:hover{
+    background-color: rgb(19, 20, 20);
+    box-shadow: 0 0 25px 0 black;
+}
+.card:hover .card-title,
+.card:hover .card-text{
+    color: rgb(255, 255, 255);
+}
