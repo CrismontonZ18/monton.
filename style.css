@@ -74,3 +74,66 @@ color:brown
 .card:hover .card-text{
     color: rgb(255, 255, 255);
 }
+#services h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 55;
+    color: aqua;
+    margin-bottom: 30px;
+
+}
+
+#services {
+    background:cornflowerblue;
+
+}
+
+#reviews {
+    background: black;
+}
+.testimonial {
+    border: 2px solid rgb(189, 15, 15);
+    padding: 20px;
+    border-radius:20px;
+    margin: 5px;
+
+}
+
+.testimonial img {
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+.accordion-button {
+    background-color: brown;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0 !important;
+    padding: 15px;
+    front-size: 18px;
+    front-weight:500px;
+    color: blueviolet;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.accordion-body {
+    border-left: 3px solid black;
+    padding: 10px 15px;
+    background-color: forestgreen;
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: mediumorchid;
+}
+.accordion-button:hover {
+    background-color: orange;
+    color: khaki;
+}
