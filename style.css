@@ -118,7 +118,7 @@ color:brown
     padding: 15px;
     front-size: 18px;
     front-weight:500px;
-    color: blueviolet;
+    color: black;
     cursor:pointer;
     transition: background-color 0.3s, color 0.3s;
 
@@ -131,9 +131,45 @@ color:brown
 }
 .accordion-button:not(.collapsed) {
     background-color: black;
-    color: mediumorchid;
+    color: black;
 }
 .accordion-button:hover {
     background-color: orange;
     color: khaki;
 }
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A1737 ;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:  rgb(244, 149, 15) ;
+    
+}
+
+@media screen and (max-width: 767px) {
+
+     h1 {
+          font-size: 45px !important;
+     }
+}
+
+section {
+ padding: 60px;
+
+}
+
+#about img {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+
+}
+
+{}
